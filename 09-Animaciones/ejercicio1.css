@@ -1,0 +1,13 @@
+.btn-modern {
+    color: green;
+    background-color: beige;
+    border-radius: 5px;
+}
+
+.btn-modern:hover {
+    color: blue;
+    background-color: darkkhaki;
+    cursor: pointer;
+    transform: translateY(-5px);
+    transition: background-color 400ms;
+}
