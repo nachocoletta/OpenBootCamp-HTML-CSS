@@ -1,0 +1,23 @@
+/* .contenedor {
+    display: flex;
+    gap: 0.5rem;
+} */
+
+.item {
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    font-size: 2rem;
+    border: 1px solid black;
+    justify-content: center;
+    padding: 0.9rem;
+    /* flex-wrap: wrap; */ 
+    width: 100px;
+    height: 100px;
+
+}
+
+
+.item4 {
+   flex-grow: 2;
+}
