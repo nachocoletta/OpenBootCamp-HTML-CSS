@@ -1,7 +1,19 @@
-/* .contenedor {
-    display: flex;
-    gap: 0.5rem;
-} */
+.contenedor {
+    display: block;
+    flex-direction: column;
+    width: 15%;
+    align-items: center;
+    /* align-items: flex-end; */
+    /* gap: 0.5rem; */
+}
+
+.contenedor2 {
+     display: flex;
+ /*   position: absolute;
+    flex-direction: row; */
+    background-color: red;
+    
+}
 
 .item {
     display: flex;
@@ -17,7 +29,8 @@
 
 }
 
-
 .item4 {
-   flex-grow: 2;
+    background-color: aqua;
+    align-items: flex-end;
+    /* height: 50%; */
 }
